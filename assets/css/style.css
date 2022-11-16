@@ -51,7 +51,7 @@ aside {
     color: var(--neonblue);
     font-size: 2em;
     
-    position:fixed;
+    position:absolute;
     height: 100%;
     width: 300px;
     border-right-style:solid;
@@ -67,3 +67,9 @@ aside ul {
     
 }
 
+section {
+    background: var(--black);
+    color: var(--neonblue);
+    margin-left:300px;
+    
+}
