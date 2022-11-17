@@ -7,43 +7,43 @@
 
 }
 
-
+/* HEADER STYLE */
 header {
     display:flex;
     padding: 22px;
     background: var(--black); 
     justify-content: space-between;  
-}
 
-h1 {
-    padding: 20px;
-    font-size: 2.2rem;
-    
-    
 }
+/* HEADER H1 STLYE */
 header h1 {
     background: var(--neonblue);
-    
+    padding: 20px;
+    font-size: 2.2rem;
 }
 
+/* NAVIGATION STLYE */
 nav {
     display: flex;
     justify-content: flex-end;
     align-items:flex-end;
 }
 
+/* NAVIGATION LINK STYLE */
 nav a {
     display:flex;
     color: var(--neonblue);
     margin-right: 14px;
     
 }
+/* NAVIGATION LIST ITEM STYLE */
 nav li {
 display:inline-block;
 font-size: 2em;
 
 }
 
+/* SIDEBAR STYLE */
 aside {
     display:flex;
     flex-direction: column;
@@ -60,6 +60,7 @@ aside {
     
 }
 
+/* SIDEBAR LIST STYLES */
 aside ul {
     margin:20px;
     text-align:right;
@@ -67,9 +68,72 @@ aside ul {
     
 }
 
+/* SECTION STLYES */
 section {
     background: var(--black);
     color: var(--neonblue);
     margin-left:300px;
     
+}
+
+/* ABOUTME STYLE */
+#aboutMe {
+    display:flex;
+}
+
+/* PARAGRAPH STYLES */
+p {
+    padding: 35px;
+    font-size:22px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#work {
+    display:flex;
+    
+   
+    margin-left: 300px;
+    background-color: var(--black);
+    color: var(--neonblue);
+    width:auto;
+    height: 400px;
+    border:5px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: var(--neonblue);
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.projects {
+
+    display:flex;
+    border:3px;
+    border-style: solid;
+    padding: 25px;
+    justify-content: flex-end;
+
+    
+    /* border:5px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: var(--neonblue);
+    width:100%;
+    display: flex;
+    flex-direction: row; */
+
+}
+
+#info1 {
+ 
+    position:absolute;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    margin:-80px 0px;
+    color: var(--neonblue);
+        
+
 }
