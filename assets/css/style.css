@@ -117,8 +117,12 @@ p {
     position:absolute;
     background: rgba(0, 0, 0, 0.8);
     display: flex;
-    margin:-80px 0px;
+    margin:-80px 12px;
     color: var(--neonblue);
+}
+
+.hide {
+    display: none;
 }
 
 /* PROJECT 2 TITLE OVERLAY */
@@ -127,7 +131,7 @@ p {
     position:absolute;
     background: rgba(0, 0, 0, 0.8);
     display: flex;
-    margin:-90px 10px;
+    margin:-60px 35px;
     color: var(--neonblue);
 }
 /* PROJECT 2 MAIN STYLE */
