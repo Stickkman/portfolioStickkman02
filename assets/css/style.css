@@ -150,27 +150,29 @@ border-right-color:--var(--neonblue);
     display: none !important;
 }
 
-/* PROJECT 2 TITLE OVERLAY */
+/* PROJECT TITLE OVERLAYS */
 #info2 {
  
     position:absolute;
     background: rgba(0, 0, 0, 0.8);
     display: flex;
-    margin:-60px 35px;
+    margin:-40px 59px;
     color: var(--neonblue);
 }
 
-/* PROJECT 3 OVERLAY */
 #info3 {
  
     position:absolute;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
     display: flex;
-    margin:-90px 18px;
+    margin:-40px 24px;
     color: var(--neonblue);
+}
+
+
         
 
-}
+
 /* PROJECT 3 MAIN STYLE */
 .projects3 {
     display:flex;
