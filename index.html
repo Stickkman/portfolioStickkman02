@@ -10,8 +10,6 @@
     <title>Stickkman | Craig Reese | Portfolio</title>
 </head>
 
-<!-- BODY -->
-<body>
     <!-- HEADER -->
     <header>
         <h1> Craig Reese </h1>
@@ -26,27 +24,29 @@
                 <li><a href="#contactInfo">Contact Info </a>
                 </li>    
             </ul>
-            about me , work, contact info
+            
 
         </nav>
      </header>
-  
+  <body>
         <!-- BANNER IMAGE -->
         <img src="./assets/images/banner.jpg" alt ="blue neon lights banner image" width="100%" height="300">
         
         
-        <main>
+        
     <!-- SIDEBAR     -->
-    <aside>  
+    <aside>
         <ul>
             <li>About Me</li><br>
             <li>Work</li><br>
             <li>Contact</li>
         </ul> 
         </aside>
+        
+        <div id="mainContainer">
         <!-- ABOUT ME SECTION -->
         <section id="aboutMe">
-            <img src="./assets/images/me.jpg" alt="A picture of Craig" width="250" height ="250" >
+            <img src="./assets/images/me.jpg" alt="A picture of Craig" width="250" height ="250" id="pic">
             <p>Hi there, <br> I'm Craig and I love pretty much anything related to computers/tech. I am currently
                  attending the UCF FullStack Web Development program and having a blast furthing my never ending
                  journey for knowledge.  I created this site to introduce myself and showcase some of my creations.
@@ -65,8 +65,40 @@
                     Gambling Manifesto</p>
                 </div>
             </div>
-            
+
+            <div class="projects">
+                <a href="https://stickkman.github.io/timedAssessmentQuiz04/"> 
+                    <!-- IMG AND LINK FOR PROJECT 2 -->
+                    <img src="./assets/images/c04.jpg" alt=" ScreenShot of Timed Quiz" width="250" height="250">
+                
+                    <div id="info2"><p>
+                    Timed Quiz</p>
+                </div>
+            </div>
+
+            <div class="projects">
+                <a href="https://stickkman.github.io/weatherDashboard06/"> 
+                    <!-- IMG AND LINK FOR PROJECT 3 -->
+                    <img src="./assets/images/c06.jpg" alt=" ScreenShot of Timed Quiz" width="250" height="250">
+                
+                    <div id="info3"><p>
+                    Weather Dashboard</p>
+                </div>
+            </div>
+
+            <div class="projects">
+                <a href="https://stickkman.github.io/dailyPlanner05/"> 
+                    <!-- IMG AND LINK FOR PROJECT 3 -->
+                    <img src="./assets/images/c05.jpg" alt=" ScreenShot of Timed Quiz" width="250" height="250">
+                
+                    <div id="info2"><p>
+                    Daily Planner</p>
+                </div>
+            </div>
         </section>
+        
+        <!--mainContainer end   -->
+       
         
         
         
@@ -86,15 +118,7 @@
         </section> -->
         <!-- Challenge 4 -->
         <section id="work">
-            <div class="projects2" id="p2">
-                <a href="https://stickkman.github.io/timedAssessmentQuiz04/"> 
-                    <!-- IMG AND LINK FOR PROJECT 2 -->
-                    <img src="./assets/images/c04.jpg" alt=" ScreenShot of Timed Quiz" width="250" height="250">
-                
-                    <div id="info2"><p>
-                    Timed Quiz</p>
-                </div>
-            </div>
+            
 
         </section>
 
@@ -103,7 +127,8 @@
         </section>
 
         <!-- UPCOMING PROJECTS -->
-        <section id="work">
+        
+        <section id="work" class ="hide">
             <div class="projects3" id="p3">
                 <a href="#"> 
                     <!-- IMG FOR UPCOMING PROJECTS -->
@@ -126,7 +151,7 @@
             </ul>
         </section>
       
-     </main>
+     
 <!-- FOOTER -->
 <footer>
 <h1> --==Last Updated November 2022===--</h1>

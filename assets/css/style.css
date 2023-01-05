@@ -50,7 +50,7 @@ aside {
     
     position:absolute;
     height: 166%;
-    width: 300px;
+    width: 12%;
     border-right-style:solid;
     border-width:5px;
     border-right-color: var(--neonblue);
@@ -67,12 +67,21 @@ aside ul {
 section {
     background: var(--black);
     color: var(--neonblue);
-    margin-left:300px;
+    
+    
+}
+
+#mainContainer {
+    margin-left:12%;
+    
 }
 
 /* ABOUTME STYLE */
 #aboutMe {
     display:flex;
+    text-align:center;
+    
+
 }
 
 /* PARAGRAPH STYLES */
@@ -84,12 +93,18 @@ p {
     align-items: center;
 }
 
+#pic {
+border-right: solid 5px;
+border-right-color:--var(--neonblue);
+
+}
+
 /* WORK SECTION STYLES */
 #work {
     display:flex;
-    
+    justify-content: space-evenly;
    
-    margin-left: 300px;
+   
     background-color: var(--black);
     color: var(--neonblue);
     height: 400px;
@@ -97,7 +112,7 @@ p {
     border-top-style: solid;
     border-bottom-style: solid;
     border-color: var(--neonblue);
-       display: flex;
+       
     flex-direction: row;
 }
 
@@ -105,10 +120,19 @@ p {
 .projects {
 
     display:flex;
-    border:3px;
+    border-top:0px;
+    border-right:5px;
+    border-bottom:0px;
+    border-left:0px;
+           
     border-style: solid;
-    padding: 25px;
-    justify-content: flex-end;
+    padding: 20px;
+    
+    
+ }
+ .projects img {
+    width:310px;
+    height:300px;
  }
 
 /* PROJECT1 TITLE OVERLAY */
@@ -117,52 +141,38 @@ p {
     position:absolute;
     background: rgba(0, 0, 0, 0.8);
     display: flex;
-    margin:-80px 12px;
+    margin:-40px 17px;
     color: var(--neonblue);
+
 }
 
 .hide {
-    display: none;
+    display: none !important;
 }
 
-/* PROJECT 2 TITLE OVERLAY */
+/* PROJECT TITLE OVERLAYS */
 #info2 {
  
     position:absolute;
     background: rgba(0, 0, 0, 0.8);
     display: flex;
-    margin:-60px 35px;
+    margin:-40px 59px;
     color: var(--neonblue);
 }
-/* PROJECT 2 MAIN STYLE */
-.projects2 {
-    display:flex;
-    
-    padding: 55px;
-    margin-top: -400px;
-    margin-left: 430px;
-    background-color: var(--black);
-    color: var(--neonblue);
-     height: 400px;
-    border:5px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-color: var(--neonblue);
-    width:100%;
-    display: flex;
-    flex-direction: row;
-}
-/* PROJECT 3 OVERLAY */
+
 #info3 {
  
     position:absolute;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
     display: flex;
-    margin:-90px 18px;
+    margin:-40px 24px;
     color: var(--neonblue);
+}
+
+
         
 
-}
+
 /* PROJECT 3 MAIN STYLE */
 .projects3 {
     display:flex;
