@@ -227,7 +227,17 @@ footer h1{
     justify-content: space-around;
     padding: 20px;
     border-bottom: solid 2px;
-    
+ 
+}
 
-
+  /* color looping for points */
+  .colorCycle {
+    animation: color-cycle 2s infinite;
+}
+@keyframes color-cycle {
+  0% { color: rgb(147, 224, 243); }
+  25% { color: rgb(245, 245, 245); }
+  50% { color: rgb(27, 27, 16); }
+  75% { color: rgb(46, 162, 170); }
+  100% { color: rgb(0, 204, 255); }
 }
