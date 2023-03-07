@@ -172,7 +172,7 @@ border-right-color:--var(--neonblue);
     position:absolute;
     background: rgba(0, 0, 0, 0.8);
     display: flex;
-    margin:-40px 59px;
+    margin:-40px 52px;
     color: var(--neonblue);
 }
 
