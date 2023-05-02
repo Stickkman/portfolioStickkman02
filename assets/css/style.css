@@ -185,7 +185,14 @@ border-right-color:--var(--neonblue);
     color: var(--neonblue);
 }
 
-
+#info4 {
+ 
+    position:absolute;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    margin:-40px 8px;
+    color: var(--neonblue);
+}
         
 
 
